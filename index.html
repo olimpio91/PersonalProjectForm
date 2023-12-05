@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="">
-        <label for="productName">Qual é o nome do produto ou serviço que você comprou?</label><br><br>
+        <label for="productName" >Qual é o nome do produto ou serviço que você comprou?</label><br><br>
         <input type="text" id="productName"><br><br>
 
         <label for="date">Em que data você comprou o produto ou serviço?</label><br><br>
@@ -81,6 +82,9 @@
 
         <input type="radio" name="sugestao" id="sugestaoNao" value="nao">
         <label for="sugestaoNao">Não</label>
+
+        <textarea name="feedbeck" id="feedbeck" cols="30" rows="10" style="display: none;"></textarea>
     </form>
 </body>
+<script src="script.js"></script>
 </html>
