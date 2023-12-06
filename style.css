@@ -1,0 +1,55 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+html    {
+    background-image: url(image/kons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+p   {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.mainContainer  {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer  {
+    margin: 20px;
+    padding:10px 0px ;
+    background-color: #ffffffb9;
+}
+
+.rowContainer   {
+    text-align: start;
+    text-align-last: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 70px 15px 0 15px;
+    width: 550px;
+
+    border-left: 3px solid #008cffb9;
+    background-color: #008cff34;
+}
+
+.rowContainer p {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.rowContainer input, select {
+    margin: 20px 0 0 10px;
+}
+
+#feedbeck   {
+    display: none;
+    float:right ;
+
+}
