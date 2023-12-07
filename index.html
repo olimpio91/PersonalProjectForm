@@ -11,100 +11,115 @@
 <body>
     <section class="mainContainer">
         <form action="" class="formContainer">
+            <h1 style="text-align: center;">FORMULARIO</h1>
 
             <div class="rowContainer">
                 <p for="productName" >Qual é o nome do produto ou serviço que você comprou?</p>
-                <input type="text" id="productName">
+                <div class="inputContainer">
+                    <input type="text" id="productName">
+                </div>
             </div>
 
             <div class="rowContainer">
                 <p for="date">Em que data você comprou o produto ou serviço?</p>
-                <input type="date" id="date">
+                <div class="inputContainer">
+                    <input type="date" id="date">
+                </div>
             </div>
 
             <div class="rowContainer">
                 <p>Como você avalia a qualidade do produto ou serviço?</p>
-                
-                <input type="radio" name="qualidade" id="qualidadeOtima" value="otima">
-                <label for="otima">Ótima</label>
+                <div class="inputContainer">
+                    <input type="radio" name="qualidade" id="qualidadeOtima" value="otima">
+                    <label for="otima">Ótima</label>
 
-                <input type="radio" name="qualidade" id="qualidadeBoa" value="Boa">
-                <label for="boa">Boa</label>
+                    <input type="radio" name="qualidade" id="qualidadeBoa" value="Boa">
+                    <label for="boa">Boa</label>
 
-                <input type="radio" name="qualidade" id="qualidadeMedia" value="media">
-                <label for="media">Média</label>
+                    <input type="radio" name="qualidade" id="qualidadeMedia" value="media">
+                    <label for="media">Média</label>
 
-                <input type="radio" name="qualidade" id="qualidadeRuim" value="ruim">
-                <label for="ruim">Ruim</label>
+                    <input type="radio" name="qualidade" id="qualidadeRuim" value="ruim">
+                    <label for="ruim">Ruim</label>
+                </div>
             </div>
 
             <div class="rowContainer">
                 <p>Você recomendaria o produto ou serviço para outras pessoas?</p>
-                
-                <input type="radio" name="recomendacao" id="recomendacao" value="sim">
-                <label for="sim">Sim</label>
+                <div class="inputContainer">    
+                    <input type="radio" name="recomendacao" id="recomendacao" value="sim">
+                    <label for="sim">Sim</label>
 
-                <input type="radio" name="recomendacao" id="nao">
-                <label for="nao">Não</label>
+                    <input type="radio" name="recomendacao" id="nao">
+                    <label for="nao">Não</label>
+                </div>
             </div>
 
             <div class="rowContainer">
                 <p>Você teve algum problema com o produto ou serviço?</p>
+                <div class="inputContainer">
+                    <input type="radio" name="avaliacao" id="avaliacaoSim">
+                    <label for="avaliacaoSim">Sim</label>
 
-                <input type="radio" name="avaliacao" id="avaliacaoSim">
-                <label for="avaliacaoSim">Sim</label>
-
-                <input type="radio" name="avaliacao" id="avaliacaoNao">
-                <label for="avaliacaoNao">Não</label>
+                    <input type="radio" name="avaliacao" id="avaliacaoNao">
+                    <label for="avaliacaoNao">Não</label>
+                </div>
             </div>
 
             <div class="rowContainer">
                 <p>Como você avalia o atendimento ao cliente?</p>
+                <div class="inputContainer">
+                    <input type="radio" name="avaliacaoCliente" id="avaliacaoClienteOtima" value="otima">
+                    <label for="avaliacaoClienteOtima">Ótima</label>
 
-                <input type="radio" name="avaliacaoCliente" id="avaliacaoClienteOtima" value="otima">
-                <label for="avaliacaoClienteOtima">Ótima</label>
+                    <input type="radio" name="avaliacaoCliente" id="avaliacaoClienteBoa" value="Boa">
+                    <label for="avaliacaoClienteBoa">Boa</label>
 
-                <input type="radio" name="avaliacaoCliente" id="avaliacaoClienteBoa" value="Boa">
-                <label for="avaliacaoClienteBoa">Boa</label>
+                    <input type="radio" name="avaliacaoCliente" id="avaliacaoClienteMedia" value="media">
+                    <label for="avaliacaoClienteMedia">Média</label>
 
-                <input type="radio" name="avaliacaoCliente" id="avaliacaoClienteMedia" value="media">
-                <label for="avaliacaoClienteMedia">Média</label>
-
-                <input type="radio" name="avaliacaoCliente" id="avaliacaoClienteRuim" value="ruim">
-                <label for="avaliacaoClienteRuim">Ruim</label>
+                    <input type="radio" name="avaliacaoCliente" id="avaliacaoClienteRuim" value="ruim">
+                    <label for="avaliacaoClienteRuim">Ruim</label>
+                </div>
             </div>
 
             <div class="rowContainer">
                 <p>Como você ficou sabendo do produto ou serviço?</p>
-                <select>
-                    <option value="Pesquisa">Pesquisa</option>
-                    <option value="Youtube">Youtube</option>
-                    <option value="Facebook">Facebook</option>
-                    <option value="Instagram">Instagram</option>
-                    <option value="" selected></option>
-                </select>
+                <div class="inputContainer">
+                    <select>
+                        <option value="Pesquisa">Pesquisa</option>
+                        <option value="Youtube">Youtube</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="" selected></option>
+                    </select>
+                </div>
             </div>
 
             <div class="rowContainer">
                 <p>Você compraria o produto ou serviço novamente?</p>
-                
-                <input type="radio" name="comprarNovamente" id="comprarNovamenteSim" value="sim">
-                <label for="comprarNovamenteSim">Sim</label>
+                <div class="inputContainer">
+                    <input type="radio" name="comprarNovamente" id="comprarNovamenteSim" value="sim">
+                    <label for="comprarNovamenteSim">Sim</label>
 
-                <input type="radio" name="comprarNovamente" id="comprarNovamenteNao" value="nao">
-                <label for="comprarNovamenteNao">Não</label>
+                    <input type="radio" name="comprarNovamente" id="comprarNovamenteNao" value="nao">
+                    <label for="comprarNovamenteNao">Não</label>
+                </div>
             </div>
 
             <div class="rowContainer">
                 <p>Você tem alguma sugestão de melhoria para o produto ou serviço?</p>
+                <div class="inputContainer">
+                    <input type="radio" name="sugestao" id="sugestaoSim" value="sim">
+                    <label for="sugestaoSim">Sim</label>
 
-                <input type="radio" name="sugestao" id="sugestaoSim" value="sim">
-                <label for="sugestaoSim">Sim</label>
+                    <input type="radio" name="sugestao" id="sugestaoNao" value="nao">
+                    <label for="sugestaoNao">Não</label>
 
-                <input type="radio" name="sugestao" id="sugestaoNao" value="nao">
-                <label for="sugestaoNao">Não</label>
-
-                <textarea title="" name="feedbeck" id="feedbeck" cols="50" rows="10"></textarea>
+                </div>
+                <div style="display: flex; justify-content: center;">
+                <textarea style="margin-bottom: 10px;" title="" name="feedbeck" id="feedbeck" cols="50" rows="10"></textarea>
+                </div>
             </div>
 
         </form>
